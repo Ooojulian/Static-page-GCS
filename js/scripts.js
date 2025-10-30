@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     // --- Cargar Menú ---
-    fetch('menu.html')
+    fetch('/Static-page-GCS/menu.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('menu-placeholder').innerHTML = data;
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Error al cargar el menú:', error));
 
     // --- Cargar Footer ---
-    fetch('footer.html')
+    fetch('/Static-page-GCS/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-placeholder').innerHTML = data;
