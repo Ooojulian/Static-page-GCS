@@ -1,35 +1,17 @@
+// --- CÓDIGO PARA CARGAR COMPONENTES ---
+
 document.addEventListener("DOMContentLoaded", function() {
 
     // --- Cargar Menú ---
-    fetch('/Static-page-GCS/menu.html')
+    fetch('/Static-page-GCS/menu.html') // Borra todo esto
         .then(response => response.text())
         .then(data => {
-            document.getElementById('menu-placeholder').innerHTML = data;
-            
-            // --- Manejar enlace activo ---
-            // Obtener el nombre del archivo de la página actual
-            let path = window.location.pathname;
-            let page = path.split("/").pop();
-            
-            // Si la página está vacía (es la raíz), asigna 'index.html'
-            if (page === '') {
-                page = 'index.html';
-            }
-
-            // Encontrar todos los enlaces del menú
-            const navLinks = document.querySelectorAll('#menu-placeholder .nav-link');
-            
-            // Recorrer los enlaces y añadir 'active' al que coincida
-            navLinks.forEach(link => {
-                if (link.getAttribute('href') === page) {
-                    link.classList.add('active');
-                }
-            });
+            // ... (Borra todo hasta el final)
         })
         .catch(error => console.error('Error al cargar el menú:', error));
 
     // --- Cargar Footer ---
-    fetch('/Static-page-GCS/footer.html')
+    fetch('/Static-page-GCS/footer.html') // Borra todo esto
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-placeholder').innerHTML = data;
