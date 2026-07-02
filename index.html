@@ -1,203 +1,634 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Gente Creativa SAS - Soluciones en transporte de carga, bodegaje y mensajería." />
-        <meta name="author" content="" />
-        <title>Inicio - Gente Creativa SAS</title>
-        <link rel="icon" type="image/x-icon" href="assets/GCSAS.ico" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="Images/LOGO GENTE CREATIVA CON NIT.jpg" alt="Gente Creativa SAS" height="60">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="about.html">Vehiculos dedicados</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Envio de mercancia</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Bodegaje y almacenamiento</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">Mensajeria y transporte</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            
-            <header class="header-custom py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6 text-start">
-                            <h1 class="display-5 fw-bolder text-white mb-2">Nosotros</h1>
-                            <p class="lead fw-normal text-white mb-4">
-                                Somos una empresa orgullosamente colombiana, conformada por un equipo multidisciplinario 
-                                de profesionales emprendedores con más de 15 años de experiencia en procesos logísticos. 
-                                Garantizamos soluciones innovadoras en transporte y bodegaje, brindando servicios confiables, 
-                                económicos y eficientes.
-                            </p>
-                            <a class="btn btn-outline-light btn-lg px-4" href="contact.html">Contáctanos</a>
-                        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gente Creativa SAS — Soluciones integrales en transporte de carga, bodegaje certificado BASC y mensajería empresarial. Bogotá, Colombia." />
+  <title>Gente Creativa SAS — Logística que mueve Colombia</title>
+  <link rel="icon" type="image/x-icon" href="assets/GCSAS.ico" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
 
-                        <div class="col-lg-6">
-                            <div class="services-card">
-                                <div class="service">
-                                    <div class="service-icon">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/2246/2246507.png" alt="Transporte">
-                                    </div>
-                                    <p>Transporte</p>
-                                </div>
-                                <div class="service">
-                                    <div class="service-icon">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/2555/2555202.png" alt="Bodegaje">
-                                    </div>
-                                    <p>Bodegaje</p>
-                                </div>
-                                <div class="service">
-                                    <div class="service-icon">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/1048/1048957.png" alt="Mensajería">
-                                    </div>
-                                    <p>Mensajería</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="Images/LOGO GENTE CREATIVA CON NIT.jpg" alt="Gente Creativa SAS" />
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="about.html">Nuestra Flota</a>
+      <a href="pricing.html">Bodegaje</a>
+      <a href="faq.html">Mensajería</a>
+      <a href="contact.html">Solicitar Envío</a>
+    </div>
+    <a href="https://wa.me/573108879620" class="btn btn-primary nav-cta" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.79a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Cotizar ahora
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
 
-            <section class="py-5" id="features">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h2 class="fw-bolder mb-0">¿En qué nos destacamos?</h2>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="row gx-5 row-cols-1 row-cols-md-2">
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-green text-white rounded-3 mb-3 text-center p-3">🚛</div>
-                                    <h2 class="h5">Transporte de Carga</h2>
-                                    <p class="mb-0">🔹 Movilizamos su mercancía a nivel local y nacional con vehículos adecuados a cada necesidad.</p>
-                                </div>
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-green text-white rounded-3 mb-3 text-center p-3">🏢</div>
-                                    <h2 class="h5">Bodegaje y Almacenamiento</h2>
-                                    <p class="mb-0">🔹 Espacios con certificación BASC y vigilancia 24/7 para la seguridad de sus productos.</p>
-                                </div>
-                                <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-green text-white rounded-3 mb-3 text-center p-3">📦</div>
-                                    <h2 class="h5">Mensajería Empresarial</h2>
-                                    <p class="mb-0">🔹 Servicios de entrega y distribución optimizados para operaciones comerciales.</p>
-                                </div>
-                                <div class="col h-100">
-                                    <div class="feature bg-green text-white rounded-3 mb-3 text-center p-3">🚐</div>
-                                    <h2 class="h5">Transporte de Pasajeros</h2>
-                                    <p class="mb-0">🔹 Movilización segura y cómoda con vehículos certificados para viajes urbanos y nacionales.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+<div class="nav-mobile" id="navMobile">
+  <a href="index.html">Inicio</a>
+  <a href="about.html">Nuestra Flota</a>
+  <a href="pricing.html">Bodegaje</a>
+  <a href="faq.html">Mensajería</a>
+  <a href="contact.html">Solicitar Envío</a>
+  <a href="https://wa.me/573108879620" class="btn btn-primary" target="_blank">Cotizar ahora</a>
+</div>
 
-            <section class="py-5 text-center">
-                <div class="container">
-                    <h2 class="fw-bold text-primary">Unidades de Negocio</h2>
-                    <p class="text-muted mb-4">
-                        En <strong>Gente Creativa S.A.S.</strong>, ofrecemos soluciones eficientes en logística para cubrir las necesidades de nuestros clientes en transporte de carga, bodegaje y almacenamiento, y servicios de mensajería.
-                    </p>
-                    
-                    <div class="row gx-5">
-                        <div class="col-md-4 text-center">
-                            <img src="Images/transporte-privado-de-pasajeros.jpg" alt="Transporte" class="img-fluid rounded shadow">
-                            <h4 class="mt-3">Transporte</h4>
-                            <ul class="list-unstyled text-muted">
-                                <li>🚛 Transporte de carga</li>
-                                <li>🌐 Nacional</li>
-                                <li>⚡ Logística especializada</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-md-4 text-center">
-                            <img src="Images/estrategias-de-bodegaje-industrial-en-bogota.jpg" alt="Bodegaje" class="img-fluid rounded shadow">
-                            <h4 class="mt-3">Bodegaje</h4>
-                            <ul class="list-unstyled text-muted">
-                                <li>🏢 Almacenamiento seguro</li>
-                                <li>⏲️ Vigilancia 24/7</li>
-                                <li>🛠️ Manejo de mercancías</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-md-4 text-center">
-                            <img src="Images/servicio-de-mensajería-1080x675.jpg" alt="Mensajería" class="img-fluid rounded shadow">
-                            <h4 class="mt-3">Mensajería</h4>
-                            <ul class="list-unstyled text-muted">
-                                <li>📦 Envío de paquetería</li>
-                                <li>💳 Pagos contra entrega</li>
-                                <li>📈 Distribución eficiente</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-frame active hero-frame-1"></div>
+    <div class="hero-frame hero-frame-2"></div>
+    <div class="hero-frame hero-frame-3"></div>
+    <div class="hero-frame hero-frame-4"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-noise"></div>
+  </div>
 
-            <div class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-10 col-xl-7">
-                            <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">Trabajamos con dedicación, no escatimamos en la perfección de nuestro que hacer diario, estamos comprometidos con nuestros clientes buscando la satisfacción y reconocimiento de nuestro trabajo .</div>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                    <div class="fw-bold">
-                                        ---
-                                        <span class="fw-bold text-primary mx-1">/</span>
-                                        ----
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        Empresa colombiana &nbsp;·&nbsp; +15 años de experiencia
+      </div>
+      <h1>Mover Colombia,<br><em>entregar confianza</em></h1>
+      <p class="hero-sub">Soluciones integrales en transporte de carga, bodegaje certificado BASC y mensajería empresarial. Cubrimos todo el territorio nacional con eficiencia y seguridad.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          Solicitar cotización
+        </a>
+        <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-indicators">
+    <div class="hero-ind active" data-frame="0"></div>
+    <div class="hero-ind" data-frame="1"></div>
+    <div class="hero-ind" data-frame="2"></div>
+    <div class="hero-ind" data-frame="3"></div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">15+</div>
+        <div class="stat-label">Años de experiencia en logística</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">8</div>
+        <div class="stat-label">Tipos de vehículos en flota propia</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">BASC</div>
+        <div class="stat-label">Certificación internacional en seguridad</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">24/7</div>
+        <div class="stat-label">Vigilancia y soporte operativo</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICIOS ===== -->
+<section class="services" id="servicios">
+  <div class="container">
+    <div class="services-header">
+      <div class="label-tag">Lo que hacemos</div>
+      <h2 class="section-title">Soluciones logísticas completas</h2>
+      <p class="section-sub">Desde la carga más pequeña hasta el transporte de gran tonelaje — tenemos la flota, la infraestructura y el equipo para moverlo.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- CARD DESTACADA -->
+      <div class="service-card featured">
+        <div>
+          <div class="service-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3>Transporte de Carga</h3>
+          <p>Movilizamos su mercancía a nivel local y nacional con vehículos seleccionados según el tipo y volumen de su carga. Flota propia desde camionetas carry hasta tractomulas de gran tonelaje.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Flota propia: 8 tipos de vehículos
             </div>
-
-            <a href="https://wa.me/573108879620" class="whatsapp-button" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
-            </a>       
-        </main>
-        
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto">
-                        <div class="small m-0 text-white">Copyright &copy; Gente Creativa SAS 2024</div>
-                        <div class="small m-0 text-white">NIT: 9012476592</div>
-                    </div>
-                    <div class="col-auto text-end">
-                        <div class="small m-0 text-white">Razón Social: Gente Creativa S A S</div>
-                        <div class="small m-0 text-white">Teléfono: 3108879620</div>
-                        <div class="small m-0 text-white">Dirección: CALLE 18 53 06, BOGOTÁ</div>
-                        <div class="mt-2">
-                            <a class="link-light small" href="privacy.html">Política de Privacidad</a>
-                            <span class="text-white mx-1">&middot;</span>
-                            <a class="link-light small" href="terms.html">Términos y Condiciones</a>
-                            <span class="text-white mx-1">&middot;</span>
-                            <a class="link-light small" href="contact.html">Contacto</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="service-feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Cobertura local y nacional
             </div>
-        </footer>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+            <div class="service-feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Logística especializada por tipo de carga
+            </div>
+            <div class="service-feature">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Rutas urbanas y de larga distancia
+            </div>
+          </div>
+          <a href="about.html" class="btn btn-primary">Ver nuestra flota</a>
+        </div>
+        <img src="Images/mulas.jpeg" alt="Tractomula Gente Creativa SAS" class="service-card-img" />
+      </div>
+
+      <!-- BODEGAJE -->
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Bodegaje y Almacenamiento</h3>
+        <p>Espacios seguros con certificación BASC, vigilancia 24/7 y gestión logística completa para la tranquilidad total de su inventario.</p>
+        <div class="service-features">
+          <div class="service-feature">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Certificación BASC internacional
+          </div>
+          <div class="service-feature">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Vigilancia 24/7 con cámaras y personal
+          </div>
+          <div class="service-feature">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Picking, packing y control de inventario
+          </div>
+        </div>
+        <a href="pricing.html" class="btn btn-dark" style="margin-top: 28px;">Conocer más</a>
+      </div>
+
+      <!-- MENSAJERÍA -->
+      <div class="service-card">
+        <div class="service-icon-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>Mensajería Empresarial</h3>
+        <p>Distribución optimizada para operaciones comerciales y e-commerce. Entregas puntuales con pagos contra entrega y trazabilidad completa.</p>
+        <div class="service-features">
+          <div class="service-feature">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Distribución para e-commerce
+          </div>
+          <div class="service-feature">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Pagos contra entrega
+          </div>
+          <div class="service-feature">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Traslados corporativos de pasajeros
+          </div>
+        </div>
+        <a href="faq.html" class="btn btn-dark" style="margin-top: 28px;">Conocer más</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FLOTA PREVIEW ===== -->
+<section class="fleet">
+  <div class="container">
+    <div class="fleet-header">
+      <div>
+        <div class="label-tag">Parque automotor</div>
+        <h2 class="section-title">Una flota para cada necesidad</h2>
+      </div>
+      <a href="about.html" class="btn btn-primary">Ver toda la flota</a>
+    </div>
+    <div class="fleet-grid">
+      <div class="fleet-card">
+        <div class="fleet-card-img-wrap">
+          <img src="Images/carry.jpg" alt="Camioneta Carry" />
+        </div>
+        <div class="fleet-card-body">
+          <h4>Camioneta Carry</h4>
+          <p>Entregas urbanas en zonas de difícil acceso.</p>
+        </div>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-card-img-wrap">
+          <img src="Images/camionnhr.jpg" alt="Camión NHR" />
+        </div>
+        <div class="fleet-card-body">
+          <h4>Camión NHR</h4>
+          <p>Distribución en zonas congestionadas, máxima maniobrabilidad.</p>
+        </div>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-card-img-wrap">
+          <img src="Images/turbo.jpg" alt="Camión Turbo" />
+        </div>
+        <div class="fleet-card-body">
+          <h4>Camión Turbo</h4>
+          <p>Cargas pesadas en rutas de larga distancia.</p>
+        </div>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-card-img-wrap">
+          <img src="Images/mulas.jpeg" alt="Tractomula" />
+        </div>
+        <div class="fleet-card-body">
+          <h4>Tractomula</h4>
+          <p>Gran volumen y peso en rutas nacionales e internacionales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONFIANZA ===== -->
+<section class="trust">
+  <div class="container">
+    <div class="trust-inner">
+      <div class="trust-text">
+        <div class="label-tag">Por qué elegirnos</div>
+        <h2 class="section-title">15 años construyendo confianza logística</h2>
+        <p class="section-sub">Somos una empresa orgullosamente colombiana, conformada por profesionales con experiencia real en procesos logísticos. Garantizamos soluciones innovadoras, confiables y a la medida de cada cliente.</p>
+        <a href="contact.html" class="btn btn-primary" style="margin-top: 28px;">Hablar con un asesor</a>
+      </div>
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <div class="trust-badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h5>Certificación BASC</h5>
+          <p>Estándares internacionales de seguridad en la cadena de suministro.</p>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h5>Cobertura nacional</h5>
+          <p>Rutas locales en Bogotá y operaciones en todo el territorio colombiano.</p>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h5>Puntualidad garantizada</h5>
+          <p>Entregas planificadas con seguimiento y comunicación constante.</p>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h5>Atención personalizada</h5>
+          <p>Soluciones adaptadas a las necesidades específicas de cada cliente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CÓMO FUNCIONA ===== -->
+<section class="how">
+  <div class="container">
+    <div class="how-header">
+      <div class="label-tag">Proceso simple</div>
+      <h2 class="section-title">¿Cómo trabajamos?</h2>
+      <p class="section-sub">Tres pasos para que su carga llegue a tiempo y en perfectas condiciones.</p>
+    </div>
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="how-step-num">01</div>
+        <div class="how-step-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.79a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <h3>Cotice en minutos</h3>
+        <p>Contáctenos por WhatsApp, formulario o teléfono. Describanos su carga, origen y destino — respondemos en menos de 2 horas.</p>
+      </div>
+      <div class="how-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="how-step">
+        <div class="how-step-num">02</div>
+        <div class="how-step-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Coordinamos la logística</h3>
+        <p>Asignamos el vehículo ideal para su tipo de carga y programamos la recolección. Le confirmamos cada detalle con anticipación.</p>
+      </div>
+      <div class="how-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="how-step">
+        <div class="how-step-num">03</div>
+        <div class="how-step-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h3>Entregamos con seguridad</h3>
+        <p>Su mercancía llega a tiempo y en perfectas condiciones. Le notificamos en cada etapa del proceso hasta la entrega final.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIOS ===== -->
+<section class="testimonials">
+  <div class="container">
+    <div class="testimonials-header">
+      <div class="label-tag">Lo que dicen nuestros clientes</div>
+      <h2 class="section-title">Confianza que se construye entrega a entrega</h2>
+      <p class="section-sub">Más de 15 años de trayectoria respaldados por empresas que confían su logística a Gente Creativa.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="testimonial-text">Llevamos más de 3 años trabajando con Gente Creativa para nuestras entregas en Bogotá y ciudades intermedias. La puntualidad y el cuidado en el manejo de la mercancía son notables. Totalmente recomendados.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">CM</div>
+          <div>
+            <div class="testimonial-name">Carlos Moreno</div>
+            <div class="testimonial-role">Gerente de Operaciones · Distribuidora Andina</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="testimonial-text">El servicio de bodegaje es excepcional. Tenemos nuestra mercancía almacenada con ellos hace dos años y el control de inventario, la seguridad y el picking son exactamente lo que necesitábamos para escalar nuestra operación.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">LR</div>
+          <div>
+            <div class="testimonial-name">Laura Rodríguez</div>
+            <div class="testimonial-role">Directora Logística · Importadora Textil LP</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="testimonial-text">Usamos su mensajería para nuestro e-commerce y la diferencia vs. otras empresas es enorme. Pocos perdidos, comunicación fluida y los pagos contra entrega funcionan sin contratiempos. Muy satisfechos.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">JP</div>
+          <div>
+            <div class="testimonial-name">Jorge Pineda</div>
+            <div class="testimonial-role">Fundador · TiendaOnline.co</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COBERTURA ===== -->
+<section class="coverage">
+  <div class="container">
+    <div class="coverage-header">
+      <div class="label-tag">Alcance nacional</div>
+      <h2 class="section-title">Donde Colombia necesita, estamos</h2>
+      <p class="section-sub">Operamos desde Bogotá con cobertura en las principales ciudades del país. Nuestra flota propia garantiza tiempos de tránsito precisos y control total de la operación.</p>
+    </div>
+    <div class="coverage-cities-grid">
+      <div class="coverage-city-card featured">
+        <div class="coverage-city-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="coverage-city-info">
+          <span class="coverage-city-tag">Sede principal</span>
+          <h4>Bogotá D.C.</h4>
+          <p>Operaciones urbanas, bodegaje y despacho a nivel nacional</p>
+        </div>
+      </div>
+      <div class="coverage-city-card">
+        <div class="coverage-city-icon secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="coverage-city-info">
+          <h4>Medellín</h4>
+          <p>Área metropolitana y Antioquia</p>
+        </div>
+      </div>
+      <div class="coverage-city-card">
+        <div class="coverage-city-icon secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="coverage-city-info">
+          <h4>Cali</h4>
+          <p>Valle del Cauca y región Pacífico</p>
+        </div>
+      </div>
+      <div class="coverage-city-card">
+        <div class="coverage-city-icon secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="coverage-city-info">
+          <h4>Barranquilla</h4>
+          <p>Costa Caribe y Atlántico</p>
+        </div>
+      </div>
+      <div class="coverage-city-card">
+        <div class="coverage-city-icon secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="coverage-city-info">
+          <h4>Bucaramanga</h4>
+          <p>Eje Santandereano y Oriente</p>
+        </div>
+      </div>
+      <div class="coverage-city-card nacional">
+        <div class="coverage-city-icon nacional-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="coverage-city-info">
+          <h4>Todo Colombia</h4>
+          <p>Rutas nacionales con flota propia</p>
+        </div>
+      </div>
+    </div>
+    <div class="coverage-cta">
+      <a href="contact.html" class="btn btn-primary">Consultar cobertura en su ciudad</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-band-inner">
+      <h2>¿Listo para optimizar su logística?</h2>
+      <p>Cuéntenos qué necesita mover y le damos una cotización en menos de 24 horas.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-light">Solicitar cotización</a>
+        <a href="https://wa.me/573108879620" class="btn btn-outline-white" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="Images/LOGO GENTE CREATIVA CON NIT.jpg" alt="Gente Creativa SAS" />
+        <p>Empresa colombiana con más de 15 años de experiencia en soluciones logísticas integrales: transporte, bodegaje y mensajería.</p>
+      </div>
+      <div class="footer-col">
+        <h6>Servicios</h6>
+        <ul>
+          <li><a href="about.html">Nuestra flota</a></li>
+          <li><a href="pricing.html">Bodegaje y almacenamiento</a></li>
+          <li><a href="faq.html">Mensajería empresarial</a></li>
+          <li><a href="contact.html">Solicitar envío</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h6>Empresa</h6>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="privacy.html">Política de privacidad</a></li>
+          <li><a href="terms.html">Términos y condiciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h6>Contacto</h6>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.59 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.79a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <p><a href="tel:573108879620">310 887 9620</a></p>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <p>Calle 18 #53-06, Bogotá D.C.</p>
+        </div>
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <p>NIT: 901.247.659-2</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Gente Creativa S.A.S. Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="privacy.html">Privacidad</a>
+        <a href="terms.html">Términos</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp float con tooltip -->
+<a href="https://wa.me/573108879620" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <div class="whatsapp-tooltip">
+    <strong>¿Necesita una cotización?</strong>
+    Respondemos en minutos
+  </div>
+  <div class="whatsapp-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="display:block;fill:white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </div>
+</a>
+
+<script>
+  // Hamburger
+  const hamburger = document.getElementById('hamburger');
+  const navMobile = document.getElementById('navMobile');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    navMobile.classList.toggle('open');
+  });
+  // Close mobile nav on link click
+  navMobile.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      navMobile.classList.remove('open');
+    });
+  });
+
+  // Hero frame-por-frame
+  const frames   = document.querySelectorAll('.hero-frame');
+  const inds     = document.querySelectorAll('.hero-ind');
+  let current    = 0;
+  let timer;
+
+  function goToFrame(n) {
+    frames[current].classList.remove('active');
+    inds[current].classList.remove('active');
+    current = n;
+    frames[current].classList.add('active');
+    inds[current].classList.add('active');
+  }
+
+  function startTimer() {
+    clearInterval(timer);
+    timer = setInterval(() => goToFrame((current + 1) % frames.length), 4500);
+  }
+
+  inds.forEach(ind => {
+    ind.addEventListener('click', () => {
+      goToFrame(parseInt(ind.dataset.frame));
+      startTimer();
+    });
+  });
+
+  startTimer();
+
+  // Contadores animados al hacer scroll
+  const statNumbers = document.querySelectorAll('.stat-number');
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting || entry.target.dataset.counted) return;
+      entry.target.dataset.counted = '1';
+      const el = entry.target;
+      const text = el.textContent;
+      const num = parseInt(text.replace(/\D/g,''));
+      if (isNaN(num)) return;
+      const suffix = text.replace(/[\d]/g,'');
+      let start = 0;
+      const duration = 1800;
+      const step = (timestamp) => {
+        if (!start) start = timestamp;
+        const progress = Math.min((timestamp - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.floor(ease * num) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+  }, { threshold: 0.5 });
+  statNumbers.forEach(n => countObserver.observe(n));
+</script>
+</body>
 </html>
