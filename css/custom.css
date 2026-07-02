@@ -3,7 +3,7 @@
    Aesthetic: Industrial Precision / High-Impact Logistics
    ============================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
 
 /* --- Variables --- */
 :root {
@@ -23,7 +23,7 @@
   --white:        #FFFFFF;
 
   --font-display: 'Bebas Neue', sans-serif;
-  --font-body:    'Nunito Sans', sans-serif;
+  --font-body:    'Inter', sans-serif;
 
   --navbar-h:     76px;
   --radius-sm:    6px;
@@ -126,7 +126,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 .btn-outline-white {
   background: transparent;
   color: var(--white);
-  border: 1.5px solid rgba(255,255,255,0.45);
+  border: 1.5px solid rgba(255,255,255,0.75);
 }
 .btn-outline-white:hover {
   background: rgba(255,255,255,0.10);
@@ -408,7 +408,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .hero-ind.active {
   width: 56px;
-  background: rgba(255,255,255,0.28);
+  background: rgba(255,255,255,0.60);
 }
 .hero-ind.active::after {
   content: '';
@@ -486,7 +486,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .stat-label {
   font-size: 13px;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.75);
   font-weight: 400;
   line-height: 1.4;
 }
@@ -600,8 +600,8 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .service-card.featured::before { background: var(--orange); }
 .service-card.featured h3 { color: var(--white); }
-.service-card.featured > p { color: rgba(255,255,255,0.60); }
-.service-card.featured .service-feature { color: rgba(255,255,255,0.55); }
+.service-card.featured p { color: rgba(255,255,255,0.90); }
+.service-card.featured .service-feature { color: rgba(255,255,255,0.88); }
 .service-card.featured .service-icon-wrap { background: rgba(249,115,22,0.18); }
 .service-card.featured:hover .service-icon-wrap { background: var(--orange); }
 .service-card.featured .btn-primary { margin-top: 28px; }
@@ -773,7 +773,7 @@ ul { list-style: none; padding: 0; margin: 0; }
   margin-bottom: 14px;
 }
 .cta-band p {
-  color: rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.85);
   font-size: 17px;
   margin-bottom: 40px;
 }
@@ -801,7 +801,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 .footer-brand img { height: 52px; margin-bottom: 18px; }
 .footer-brand p {
   font-size: 14px;
-  color: rgba(255,255,255,0.38);
+  color: rgba(255,255,255,0.65);
   line-height: 1.75;
 }
 .footer-col h6 {
@@ -810,7 +810,7 @@ ul { list-style: none; padding: 0; margin: 0; }
   font-weight: 700;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.28);
+  color: rgba(255,255,255,0.60);
   margin-bottom: 20px;
 }
 .footer-col ul li { margin-bottom: 10px; }
@@ -856,7 +856,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 .footer-legal { display: flex; gap: 20px; }
 .footer-legal a {
   font-size: 13px;
-  color: rgba(255,255,255,0.28);
+  color: rgba(255,255,255,0.60);
   transition: color 0.2s;
 }
 .footer-legal a:hover { color: var(--white); }
@@ -906,7 +906,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .page-header p {
   font-size: 17px;
-  color: rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.85);
   line-height: 1.75;
 }
 .page-header-accent {
@@ -1295,7 +1295,7 @@ ul { list-style: none; padding: 0; margin: 0; }
   margin-bottom: 72px;
 }
 .how-header .section-title { color: var(--white); }
-.how-header .section-sub { color: rgba(255,255,255,0.50); margin: 12px auto 0; }
+.how-header .section-sub { color: rgba(255,255,255,0.80); margin: 12px auto 0; }
 .how-header .label-tag { justify-content: center; }
 .how-header .label-tag::before { display: none; }
 
@@ -1354,7 +1354,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .how-step p {
   font-size: 14px;
-  color: rgba(255,255,255,0.50);
+  color: rgba(255,255,255,0.80);
   line-height: 1.7;
 }
 
@@ -1733,7 +1733,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .coverage-city-card.featured .coverage-city-info h4 { color: var(--white); font-size: 1.4rem; }
 .coverage-city-info p { font-size: 13px; color: var(--gray-600); line-height: 1.5; }
-.coverage-city-card.featured .coverage-city-info p { color: rgba(255,255,255,0.55); }
+.coverage-city-card.featured .coverage-city-info p { color: rgba(255,255,255,0.80); }
 
 .coverage-cta { text-align: center; }
 
@@ -1958,4 +1958,34 @@ html, body { overflow-x: hidden; }
   .mensajeria-grid.reverse { direction: ltr; }
   .vehicle-row { grid-template-columns: 1fr; }
   .vehicle-row.reverse { direction: ltr; }
+}
+
+/* Fix legibilidad párrafo en card featured */
+.service-card.featured p {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+.service-card.featured {
+  position: relative;
+}
+/* Asegurar que el div de texto quede sobre la imagen en mobile */
+.service-card.featured > div {
+  position: relative;
+  z-index: 1;
+}
+.service-card-img {
+  position: relative;
+  z-index: 0;
+}
+/* En desktop la imagen va al lado (grid 2 cols), texto legible */
+@media (min-width: 769px) {
+  .service-card.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 52px;
+  }
+  .service-card.featured p {
+    text-shadow: none;
+    color: rgba(255,255,255,0.90);
+  }
 }
